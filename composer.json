@@ -1,9 +1,13 @@
 {
-  "name" : "mgilet/notification-bundle",
+  "name" : "magik/notification-bundle",
   "license": "MIT",
-  "description" : "A simple Symfony 3 bundle for user notifications",
+  "description" : "A simple Symfony 4 bundle for user notifications",
   "type" : "symfony-bundle",
   "authors" : [{
+    "name" : "Aleksey ZHilko",
+    "email" : "magik2@ukr.net"
+  },
+  {
     "name" : "Maximilien Gilet",
     "email" : "maximilien248@gmail.com"
   }],
@@ -11,7 +15,7 @@
     "symfony notification bundle simple"
   ],
   "require" : {
-    "symfony/framework-bundle": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+    "symfony/framework-bundle": "^4.0 || ^5.0",
     "twig/twig": "*",
     "doctrine/doctrine-bundle": "*"
   },
